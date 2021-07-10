@@ -8,19 +8,24 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\usuario022\\.nuget\\packages\\": {}
+    "C:\\Users\\fndal\\.nuget\\packages\\": {},
+    "E:\\Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario022\\source\\repos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\EstudoXML.csproj",
+      "projectUniqueName": "E:\\Projetos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\EstudoXML.csproj",
       "projectName": "EstudoXML",
-      "projectPath": "C:\\Users\\usuario022\\source\\repos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\EstudoXML.csproj",
-      "packagesPath": "C:\\Users\\usuario022\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario022\\source\\repos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\obj\\",
+      "projectPath": "E:\\Projetos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\EstudoXML.csproj",
+      "packagesPath": "C:\\Users\\fndal\\.nuget\\packages\\",
+      "outputPath": "E:\\Projetos\\TreinaWeb.CSharp.Intermediario\\EstudoXML\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\usuario022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fndal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

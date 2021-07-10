@@ -27,7 +27,7 @@ namespace EstudoXML
         private string CarregarTitulo()
         {
             XmlDocument documentoXML = new XmlDocument();
-            documentoXML.Load(@"C:\Users\usuario022\source\repos\TreinaWeb.CSharp.Intermediario\EstudoXML\Agenda.xml");
+            documentoXML.Load(@"E:\Projetos\TreinaWeb.CSharp.Intermediario\EstudoXML\Agenda.xml");
             XmlNode noTitulo = documentoXML.SelectSingleNode("/agenda/titulo");
             return noTitulo.InnerText;            
         }
@@ -35,7 +35,7 @@ namespace EstudoXML
         private void CarregarContatos()
         {
             XmlDocument documentoXML = new XmlDocument();
-            documentoXML.Load(@"C:\Users\usuario022\source\repos\TreinaWeb.CSharp.Intermediario\EstudoXML\Agenda.xml");
+            documentoXML.Load(@"E:\Projetos\TreinaWeb.CSharp.Intermediario\EstudoXML\Agenda.xml");
             XmlNodeList contatos = documentoXML.SelectNodes("/agenda/contatos/contato");
             foreach (XmlNode contato in contatos)
             {
